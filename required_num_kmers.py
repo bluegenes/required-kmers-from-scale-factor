@@ -24,7 +24,7 @@ def main(args):
 if __name__ == "__main__":
     p = argparse.ArgumentParser()
     p.add_argument('--scaled-fraction', help='scaled, as fraction', default=0.001, type=float)
-    p.add_argument('-s', '--scaled-number', type=int, help='scaled, as number. If given, used instead of --scaled_fraction', default=None)
+    p.add_argument('-s', '--scaled-number', type=int, help='scaled, as number. If given, used instead of --scaled-fraction', default=None)
     p.add_argument('-b', '--bias-threshold', help='threshold for bias', default=0.99, type=float)
     p.add_argument('-k', '--ksize', help='k-mer length', default=21)
 
